@@ -31,7 +31,7 @@ app.get('/repos', (req, res)=>{
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 app.use((req, res)=>{
-    res.render('error/404')
+    res.status(404).render('error/404')
 })
 
 
