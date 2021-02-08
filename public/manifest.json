@@ -1,0 +1,14 @@
+{
+    "name": "Radu LLC",
+    "display": "standalone",
+    "start_url": ".",
+    "background_color": "#fff",
+    "description": "Radu LLC",
+    "icons": [
+        {
+            "src": "radullc.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
