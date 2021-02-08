@@ -1,5 +1,6 @@
 {
     "name": "Radu LLC",
+    "short_name": "Radu",
     "display": "standalone",
     "start_url": ".",
     "background_color": "#fff",
