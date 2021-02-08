@@ -25,6 +25,9 @@ if(cert==undefined){
     })
     https=require('https').createServer({cert: cert, key: key}, app)
 }
+app.get('/repos', (req, res)=>{
+    res.render('repos')
+})
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 app.use((req, res)=>{
