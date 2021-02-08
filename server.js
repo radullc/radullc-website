@@ -19,7 +19,7 @@ try {
     const https=require('https').createServer({cert: cert, key: key}, app)
     https.listen(443)
 } catch (err) {
-    console.error("Could not read certificate")
+    console.log("Could not read certificate")
 }
 
 http.listen(80)
