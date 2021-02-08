@@ -1,0 +1,70 @@
+*, *::before, *::after{
+    font-family: Roboto, Arial, sans-serif !important;
+}
+body{
+    margin: 0;
+}
+nav {
+    background-color: rgb(160, 200, 2) !important;
+    color: white !important;
+}
+a {
+    display: flex;
+}
+nav ul {
+    margin: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+nav li{
+    list-style: none !important;
+    padding: 10px !important;
+    margin: 0 10px !important;
+}
+nav li:hover{
+    background-color: #FFFFFF44 !important;
+}
+nav a{
+    color: inherit !important;
+    text-decoration: none !important;
+}
+main{
+    padding: 30px !important;
+}
+.sticky{
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+}
+
+@keyframes navbar{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes story{
+    0%{
+        color: white;
+    }
+    100%{
+        color: black;
+    }
+}
+.progress {
+    width: 500px !important;
+}
+.preloader-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

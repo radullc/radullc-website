@@ -1,0 +1,30 @@
+{
+  "name": "radullc-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radullc/radullc-website.git"
+  },
+  "keywords": [
+    "RaduLLC"
+  ],
+  "author": "Radu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radullc/radullc-website/issues"
+  },
+  "homepage": "https://github.com/radullc/radullc-website#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
