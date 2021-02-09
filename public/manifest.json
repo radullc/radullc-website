@@ -3,6 +3,7 @@
     "short_name": "Radu",
     "display": "standalone",
     "start_url": "/",
+    "theme_color": "#A0C802",
     "background_color": "#fff",
     "description": "Radu LLC",
     "icons": [
