@@ -1,4 +1,5 @@
 node_modules
 certificate.crt
 private.key
+repos.json
 public/.well_known

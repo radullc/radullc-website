@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radu LLC</title>
+    <script>
+        const url="<%=url%>"
+    </script>
     <link rel="stylesheet" href="/main.css">
     <link rel="stylesheet" href="/materialize/css/materializemin.css">
     <script src="/jquery.js" defer></script>
-    <script src="/repos.js" defer type="module"></script>
+    <script src="/repo.js" defer type="module"></script>
     <link rel="manifest" href="/manifest.json">
 </head>
 <body>
@@ -39,10 +42,10 @@
     </div>
     <main>
         <br>
-        <h3>Repos</h3>
-        This page is a work-in-progress. Expect bugs
+        <h3 id="name">Name</h3>
+        <a href="" id="link" target="_blank">Go to GitHub</a>
         <br>
-        <div class="container" id="container"></div>
+        <span id="desc"></span>
     </main>
 </body>
 </html>

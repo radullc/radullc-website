@@ -28,6 +28,9 @@ if(cert==undefined){
 app.get('/repos', (req, res)=>{
     res.render('repos')
 })
+app.get('/repos/:url', (req, res)=>{
+    res.render('repo', {url: req.params.url})
+})
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 app.use((req, res)=>{
