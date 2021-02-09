@@ -3,6 +3,9 @@ const name=document.getElementById('name')
 const link=document.getElementById('link')
 const desc=document.getElementById('desc')
 const body=document.querySelector('body')
+if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('/sw.js')
+}
 let repos
 setTimeout(() => {
     httpRequest('/repos.json', 'GET', (res)=>{

@@ -1,7 +1,7 @@
 import {httpRequest} from '/libs/request.js'
 const container=document.getElementById('container')
 if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('sw.js')
+    navigator.serviceWorker.register('/sw.js')
 }
 let repos
 setTimeout(() => {
